@@ -12,6 +12,7 @@ public class MainPage extends AbstractPage {
     @FindBy(xpath = "//a[contains(@href, 'https://www.livejournal.com/category/puteshestviya/')]")
     private WebElement zdorovie;
 
+
     @FindBy (xpath = "//*[@class='search__control']")
     private WebElement category;
 

@@ -10,6 +10,7 @@ import java.time.Duration;
 
 
 public abstract class AbstractTest {
+
     static WebDriver webDriver;
 
     @BeforeAll

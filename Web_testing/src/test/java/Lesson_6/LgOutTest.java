@@ -21,5 +21,6 @@ public class LgOutTest extends AbstractTest {
          String expectedUrl= getWebDriver().getCurrentUrl();
          Assert.assertEquals(expectedUrl,actualUrl);
 
+
     }
 }

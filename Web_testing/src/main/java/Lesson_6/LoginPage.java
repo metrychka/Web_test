@@ -100,6 +100,7 @@ public class LoginPage extends AbstractPage {
                 .build()
                 .perform();
 
+
     }
 
     public void setLang() {

@@ -14,4 +14,5 @@ public abstract class AbstractPage {
     protected WebDriver getDriver(){
         return this.driver;
     }
+
 }

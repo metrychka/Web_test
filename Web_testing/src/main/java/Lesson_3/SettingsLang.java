@@ -36,7 +36,7 @@ public class SettingsLang {
         WebElement logButton = driver.findElement(By.xpath("//span[contains(@class,'s-nav-item__name')]"));
         new Actions(driver).clickAndHold(logButton).perform();
 
-        WebElement settings = driver.findElement(By.xpath("//a[contains(@class,'-header-sub-list-item__link--settings')]"));
+        WebElement settings = driver.findElement(By.xpath("//a[contains(@class,'s-header-sub-list-item__link--settings')]"));
         settings.click();
 
         WebElement view = driver.findElement(By.xpath("//ul[@id='settings_nav']/li[3]/a"));
@@ -44,7 +44,6 @@ public class SettingsLang {
 
         WebElement lang = driver.findElement(By.id("LJ__Setting__Language_lang"));
         lang.click();
-       // lang.findElement(By.xpath("//*[@id=\"LJ__Setting__Language_lang\"]/option[1]"));
 
         WebElement selectLang = driver.findElement(By.xpath("//select[@id='LJ__Setting__Language_lang']"));
         Select select = new Select(selectLang);
